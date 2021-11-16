@@ -1,0 +1,15 @@
+@import 'blocks/promo';
+@import 'blocks/bio';
+@import 'blocks/about';
+@import 'blocks/contacts';
+
+* {
+    font-family: 'Museo Sans Cyrl',
+    sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+

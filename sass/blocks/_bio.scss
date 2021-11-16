@@ -1,0 +1,86 @@
+.bio {
+    min-height: 700px;
+    background-color: #F4F3E8;
+    padding: 20px 0;
+    &__img {
+        width: 300px;
+        height: 350px;
+        margin: -120px 0 30px 0;
+        img {
+            height: 100%;
+        }
+    }
+    &__block {
+        padding: 30px;
+        width: 550px;
+        height: 230px;
+        background-color: #fff;
+        margin-left: 400px; 
+        border-radius: 30px; 
+        margin-top: -400px;
+    }
+    &__title {
+        text-align: right;
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #C1E0D2;
+    }
+    &__list {
+        margin-top: 30px;
+        list-style-type: none;
+        text-align: right;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #77AD9E;
+    }
+    li {
+        margin-top: 8px;
+    }
+    img {
+        border-radius: 30px;
+        margin: 20px 0;
+    }
+    &__expiriens {
+        margin-top: 210px;
+        display: flex;
+        align-items: center;
+        width: 700px;
+        height: 170px;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 20px;    
+    }
+    &__descr {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #77AD9E;
+    } 
+    &__skils {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #77AD9E;
+    }
+    &__skils_list {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        margin-top: 50px;
+        text-align: center;
+        list-style-type: none;
+        margin-left: 30px;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #77AD9E;
+        li {
+            margin-bottom: 25px;
+        }
+    }
+} 
